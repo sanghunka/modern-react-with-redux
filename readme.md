@@ -45,3 +45,30 @@ JSX(The stuff that looks like HTML) tells React to...
 ### 4. How did the text get translated to another language?
 
 - Google Translate API
+
+## 8. Creating a React Project
+
+`npx create-react-app <project name>`
+
+- To start your project up
+    - Change into your project folder
+    - Run `npm start`
+- To view your project
+    - Open your browser and navigate to `localhost:3000`
+- To stop your project
+    - Press `Control + C`
+
+```
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+```
