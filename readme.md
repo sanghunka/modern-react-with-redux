@@ -72,3 +72,29 @@ JSX(The stuff that looks like HTML) tells React to...
     Removes this tool and copies build dependencies, configuration files
     and scripts into the app directory. If you do this, you can’t go back!
 ```
+
+## 9. What is Create React App?
+
+```
+Why are we running something at our terminal?
+What are all these files and folders?
+```
+
+- Files(index.js, App.js, reportWebVitals.js) that contain code that a browser doesn't know how to execute.
+- JSX is not valid javascript code. In other words, your browser does not know how to execute JSX.
+- We only make use of JSX in react projects because it is convenient and it makes it really easy for us to make components.
+- Because your browser does not know how to execute JSX, we have to trans file before we try to run our components.
+- The term transfile means we are taking one form of code and kind of changing it automatically into another form of code.
+
+`index.js, App.js, reportWebVitals.js` --`Babel`--> --`Webpack`--> `bundle.js`
+
+- Babel: Tool to turn JSX into normal JS code
+- Webpack: Tool to merge all project files into a single file
+
+**Only about five are actually required to run**
+
+- index.js: First file that gets executed when our app runs
+- index.html: Skeleton for the React app
+- package.json: Lists dependencies our app needs
+- package-lock.json: Lists dependencies our app needs
+- node-modules: Contains dependencies our app needs
