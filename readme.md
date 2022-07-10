@@ -98,3 +98,10 @@ What are all these files and folders?
 - package.json: Lists dependencies our app needs
 - package-lock.json: Lists dependencies our app needs
 - node-modules: Contains dependencies our app needs
+
+# Section 2:Building Content with JSX
+
+## 10. Showing Basic Content
+
+- React: Library that defines what a component is and how multiple components work together
+- ReactDOM: Library taht knows how to get a component to show up in the browser
