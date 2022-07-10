@@ -165,6 +165,7 @@ return (
 ```
 
 ## 18. Converting HTML to JSX
+## 19. Applying Styling in JSX
 
 - Names/Values of attributes that you provide to elements in HTML are slightly different when writing JSX
 - Converting HTML to JSX
@@ -173,3 +174,10 @@ return (
     3. Boolean 'true' can be written with just the property name. 'False should be written with curly braces
     4. The 'class' attribute is written as 'className'
     5. In-line styles are provided as object
+            ```
+            // HTML
+            <a style="text-decoration: 'none'; padding: '5px'; />
+
+            // Equivalent JSX
+            <div style={{ textDecoration: 'none', padding: '5px' }}/>
+            ```
