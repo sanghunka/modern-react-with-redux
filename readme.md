@@ -129,3 +129,37 @@ What are all these files and folders?
     - What is the difference between the `React` and `ReactDOM` libraries?
         - React defines what a component is and how it works
         - ReactDOM is used to show components specifically in a browser environment
+
+## 17. Customizing Elements with Props
+
+```ts
+return <input type="{inputType}" min={minValue} max={maxValue}/>;
+```
+
+```ts
+return (
+    <input
+        type="number"
+        min={5}
+        max={10}
+        list={[1,2,3]}
+        style={{ color: 'red' }} // ????
+        alt={message}
+    />
+)
+```
+
+- Props: Customizes an element
+- Props can refer to a variable using the same curly braces syntax
+- Props don't have to be defined as variables
+
+```ts
+const config = { color: 'red' }
+return (
+    <div>
+        <h1>{config}</h1>    // Trying to display an object. Doesn't work! 
+
+        <input abc={config}> // Trying to provide an object as a prop. OK!
+    </div>
+)
+```
