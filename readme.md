@@ -122,3 +122,10 @@ What are all these files and folders?
 
 - We most often use curly braces to show strings or numbers
 - Common Error: React cannot show an object as text content (e.g. Json, Boolean)
+
+## Quiz 2:Showing Simple Content
+
+- Question 1:
+    - What is the difference between the `React` and `ReactDOM` libraries?
+        - React defines what a component is and how it works
+        - ReactDOM is used to show components specifically in a browser environment
