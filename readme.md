@@ -163,3 +163,13 @@ return (
     </div>
 )
 ```
+
+## 18. Converting HTML to JSX
+
+- Names/Values of attributes that you provide to elements in HTML are slightly different when writing JSX
+- Converting HTML to JSX
+    1. All prop names follow camelCase
+    2. Number attributes use curly braces
+    3. Boolean 'true' can be written with just the property name. 'False should be written with curly braces
+    4. The 'class' attribute is written as 'className'
+    5. In-line styles are provided as object
