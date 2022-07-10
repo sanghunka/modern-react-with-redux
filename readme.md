@@ -117,3 +117,8 @@ What are all these files and folders?
 - Writing this doesn't make anything show up in the browser automatically
 - This creates an instruction for React, telling it to make en element
 - We have to return it from a component for React to use it
+
+## 12. Printing JavaScript Variables in JSX
+
+- We most often use curly braces to show strings or numbers
+- Common Error: React cannot show an object as text content (e.g. Json, Boolean)
