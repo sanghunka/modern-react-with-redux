@@ -105,3 +105,15 @@ What are all these files and folders?
 
 - React: Library that defines what a component is and how multiple components work together
 - ReactDOM: Library taht knows how to get a component to show up in the browser
+
+## 11. So... Waht is JSX?
+
+- `https://babeljs.io/repl`
+    - Tool to show you what your JSX is turned into
+
+```
+<h1>Hi there</h1>
+```
+- Writing this doesn't make anything show up in the browser automatically
+- This creates an instruction for React, telling it to make en element
+- We have to return it from a component for React to use it
