@@ -209,7 +209,14 @@ Components are the one exception to that rule. If we want to show one component 
 
 ## 31. React's Props System
 
-**Props**
+**Props** (properties)
 
 - System for passing data from a parent component to a child component
 - Goal is to customize or configure a child component
+
+## 32. Passing and Receiving Props
+
+`<CommentDetail author="Sam" />`
+
+- `author=`: Name of the prop
+- `"Sam"`: Value of the prop
