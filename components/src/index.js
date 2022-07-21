@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { faker } from "@faker-js/faker";
 import CommentDetail from "./CommentDetail"; // You don't have to put the actual file extension on there so long
+import ApprovalCard from "./ApprovalCard";
 
 const App = () => {
   return (
     <div className="ui container comments">
+      <ApprovalCard />
       <CommentDetail
         author="sam"
         timeAgo="Today at 4:45PM"
