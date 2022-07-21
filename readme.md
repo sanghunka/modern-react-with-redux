@@ -201,3 +201,8 @@ Creating a Reusable, Configurable Component
 - Create a new file to house this new component - it should have the same name as the component
 - Create a new component in the new file, paste the JSX into it
 - Make the new component configurable by using React's 'props' system
+
+# 30. Component Nesting
+
+We just spoke about JSX and we had said that if we want to refer to javascript variables, we're going to use those curly braces like `{CommentDetail}`.
+Components are the one exception to that rule. If we want to show one component inside of another, we're going to treat it as though it was just a JSX tag instead. `<CommentDetail />`
