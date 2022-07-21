@@ -220,3 +220,34 @@ Components are the one exception to that rule. If we want to show one component 
 
 - `author=`: Name of the prop
 - `"Sam"`: Value of the prop
+
+# Section 4: Structuring Apps with Class-Based Components
+
+## 44. Class-Based Components
+
+A component is a [Function or Class]
+that produces HTML to show the user (using JSX)
+and handles feedback from the user (using event handlers)
+
+### How React Used to Be
+- Functional Components
+    - Can produce JSX to show content to the user
+
+- Class Components
+    - Can produce JSX to show content to the user
+    - Can use the Lifecycle Method system to run code at specific points in time
+    - Can use the 'state' system to update content on the screen
+
+- Hooks System, Function Components
+    - Can produce JSX to show content to the user
+    - Can use Hooks to run code at specific points in time
+    - Can use Hooks to access state system and update content on screen
+
+With hook system, the React team have given many more capabilities to function components and through the use of this hook system, function components can now execute code at specific points in time, which is roughly equivalent to the lifecycle method system tied to class components.
+In addition, function components can make use of the state system.
+
+So really today with react components are largely now much more similar to class components.
+
+So which one should we use?
+- Companies with established projects are using Class-based components
+- Companies with newer projects may be using Class-based or Function-based components
