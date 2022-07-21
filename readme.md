@@ -193,7 +193,7 @@ return (
 - Component Configuration
     - We should be able to configure a component when it is created
 
-# 29. Extracting JSX to New Components
+## 29. Extracting JSX to New Components
 
 Creating a Reusable, Configurable Component
 - Identify the JSX that appears to be duplicated
@@ -202,7 +202,14 @@ Creating a Reusable, Configurable Component
 - Create a new component in the new file, paste the JSX into it
 - Make the new component configurable by using React's 'props' system
 
-# 30. Component Nesting
+## 30. Component Nesting
 
 We just spoke about JSX and we had said that if we want to refer to javascript variables, we're going to use those curly braces like `{CommentDetail}`.
 Components are the one exception to that rule. If we want to show one component inside of another, we're going to treat it as though it was just a JSX tag instead. `<CommentDetail />`
+
+## 31. React's Props System
+
+**Props**
+
+- System for passing data from a parent component to a child component
+- Goal is to customize or configure a child component
