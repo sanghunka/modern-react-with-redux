@@ -260,3 +260,10 @@ So which one should we use?
     - Easier to handle user input
 - Understands lifecycle events
     - Easier to do things when the app first starts
+
+## 50. Refactoring from Functional to Class Components
+
+### Rules of Class Components
+- Must be a Javascript Class
+- Must extent (subclass) React.Component
+- Must define a 'render' method that returns some amount of JSX
