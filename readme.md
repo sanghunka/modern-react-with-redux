@@ -281,3 +281,19 @@ So which one should we use?
 - Updating 'state' on a component causes the component to (almost) istantly rerender
 - State must be initialized when a component is created
 - State can only be updated using the function 'setState'
+
+# Section 6: Understanding Lifecycle Methods
+
+## 57. Introducing Lifecycle Methods
+
+### Component Lifecycle
+- Constructor
+- **render**
+    - Content visible on screen
+- componentDidMount
+    - Sit and wait for updates...
+- componentDidUpdate
+    - Sit and wait until this component is not longer shown
+- componentWillUnmount
+
+Anytime our component updated, the render method will be called.
