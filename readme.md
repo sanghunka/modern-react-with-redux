@@ -251,3 +251,12 @@ So really today with react components are largely now much more similar to class
 So which one should we use?
 - Companies with established projects are using Class-based components
 - Companies with newer projects may be using Class-based or Function-based components
+
+## 45. Application Overview
+
+### Benefits of Class Components
+- Easier code organization
+- Can use 'state'(another React system)
+    - Easier to handle user input
+- Understands lifecycle events
+    - Easier to do things when the app first starts
