@@ -267,3 +267,17 @@ So which one should we use?
 - Must be a Javascript Class
 - Must extent (subclass) React.Component
 - Must define a 'render' method that returns some amount of JSX
+
+# Section 5: State in React Components
+
+## 51. The Rules of State
+
+### The Rules of State
+
+- Only usable with class components
+(Technically can be used with functional components using the 'hooks' system. (thing to discuss later))
+- You will confuse props with state :(
+- 'State' is a JS object that contains data relevant to a component
+- Updating 'state' on a component causes the component to (almost) istantly rerender
+- State must be initialized when a component is created
+- State can only be updated using the function 'setState'
