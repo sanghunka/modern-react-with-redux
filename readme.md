@@ -308,3 +308,30 @@ Anytime our component updated, the render method will be called.
 - shouldComponentUpdate
 - getDerivedStateFromProps
 - getSnapshotBeforeUpdate
+
+## 60. Alternate State Initialization
+
+https://babeljs.io/repl
+
+```js
+class App extends React.Component {
+  state = { lat: null };
+}
+```
+
+```js
+"use strict";
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+class App extends React.Component {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "state", {
+      lat: null
+    });
+  }
+
+}
+```

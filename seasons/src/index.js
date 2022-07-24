@@ -20,6 +20,8 @@ class App extends React.Component {
 
   }
 
+  state = {lat: null, errorMessage: '' };
+
   componentDidMount() {
     console.log('My component was rendered to the screen');
 
