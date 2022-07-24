@@ -285,15 +285,26 @@ So which one should we use?
 # Section 6: Understanding Lifecycle Methods
 
 ## 57. Introducing Lifecycle Methods
+## 58. Why Lifecycle Methods?
 
 ### Component Lifecycle
 - Constructor
+    - Good place to do one-time setup
 - **render**
     - Content visible on screen
+    - Avoid doing anything besides returning JSX
 - componentDidMount
     - Sit and wait for updates...
+    - Good place to do data-loading!
 - componentDidUpdate
     - Sit and wait until this component is not longer shown
+    - Good place to do more data-loading when state/props change
 - componentWillUnmount
+    - Good place to do cleanup (especially for non-React stuff)
 
 Anytime our component updated, the render method will be called.
+
+### Other lifecycle methods (rarely used)
+- shouldComponentUpdate
+- getDerivedStateFromProps
+- getSnapshotBeforeUpdate
